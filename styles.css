@@ -1,7 +1,8 @@
 
 :root{
 --spacecadet:rgb(43, 45, 66);
---spacecadet-50:rgb(22, 22, 33);
+--spacecadet-50:rgb(86, 90, 132);
+--spacecadet-200:rgb(22, 22, 33);
 --Coolgray:#8D99AE;
 --antiflashwhite:#EDF2F4;
 --pantone:#EF233C;
@@ -12,13 +13,14 @@ body{
     font-family: 'inter';
 }
 .container {
+    padding-top: 16px;
     display: flex;
     border: solid black 2px;
     width:fit-content;
     height:max-content;
-    border-radius: 16px;
+    border-radius: 4px;
     flex-direction: column;
-    background-color: var(--spacecadet-50);
+    background-color: var(--spacecadet-200);
     font-family: 'inter';
 }
 .banner {    
@@ -62,4 +64,14 @@ body{
     border: solid black 2px;
     position:absolute;
     width:250px;
+}
+.navbar{
+    width:99%;
+    background-color: var(--spacecadet);
+    border:solid black 2px;
+    position:fixed;
+    z-index: 1;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
