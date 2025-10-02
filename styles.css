@@ -106,6 +106,7 @@ grid-column-start: 5;
     display:flex;
     background-color: var(--Coolgray);
     width:100%;
+    flex-wrap: wrap;
 }
 a:link,a:visited{
     color:black;
