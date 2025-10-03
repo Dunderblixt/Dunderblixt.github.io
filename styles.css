@@ -107,6 +107,7 @@ grid-column-start: 6;
     grid-column-start:6;
 }
 .foot{
+    padding: 2px;
     display:flex;
     background-color: var(--Coolgray);
     width:100%;
