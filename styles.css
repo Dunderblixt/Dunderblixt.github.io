@@ -20,7 +20,7 @@ body{
     height:max-content;
     border-radius: 4px;
     flex-direction: column;
-    background-color: var(--spacecadet-200);
+    background-color: var(--spacecadet);
     font-family: 'inter';
 }
 .banner {
@@ -63,7 +63,7 @@ body{
 }
 .filter{
     text-decoration:none;
-    background-color:var(--spacecadet);
+    background-color:var(--Coolgray);
     border: solid black 2px;
     position:fixed;
     width:250px;
