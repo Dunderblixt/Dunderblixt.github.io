@@ -41,6 +41,7 @@ body{
     display:flex;
     justify-self: flex-end;
     margin: 10px;
+    border-radius: 1px;
 }
 .listing {
     margin-left: 300px;
@@ -52,7 +53,7 @@ body{
     background-color:var(--Coolgray);
     margin-bottom: 4px;
     display:flex;
-    height:200px;
+    height:240px;
     width:200px;
     border:solid black 2px;
     flex-direction: column;
@@ -80,7 +81,7 @@ body{
 }
 .search{
 grid-row-start: 1;
-grid-column-start: 2;
+grid-column-start: 3;
 }
 .cat{
 grid-row-start: 2;
@@ -100,15 +101,16 @@ grid-column-start: 4;
 }
 .cat5{
 grid-row-start: 2;
-grid-column-start: 5;
+grid-column-start: 6;
 }
 .kassa{
-    grid-column-start:5;
+    grid-column-start:6;
 }
 .foot{
     display:flex;
     background-color: var(--Coolgray);
     width:100%;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 a:link,a:visited{
