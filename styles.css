@@ -102,6 +102,9 @@ grid-column-start: 4;
 grid-row-start: 2;
 grid-column-start: 5;
 }
+.kassa{
+    grid-column-start:5;
+}
 .foot{
     display:flex;
     background-color: var(--Coolgray);
