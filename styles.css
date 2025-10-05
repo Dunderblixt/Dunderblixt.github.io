@@ -79,7 +79,7 @@ body{
     margin-bottom: 4px;
     display:flex;
     border-radius: 20px;
-
+    border:solid black 2px;
     margin:10%;
     
 }
