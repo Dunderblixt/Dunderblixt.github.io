@@ -28,6 +28,7 @@ body{
     font-family: 'inter';
 }
 .banner {
+    display:flex;
     background-color:var(--Coolgray);
     justify-content: center;
     border:solid, black, 2px;
@@ -164,3 +165,4 @@ body{
 a:link,a:visited{
     color:black;
 }
+
