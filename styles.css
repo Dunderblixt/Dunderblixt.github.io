@@ -1,4 +1,3 @@
-
 :root{
 --spacecadet:rgb(43, 45, 66);
 --spacecadet-50:rgb(86, 90, 132);
@@ -9,7 +8,6 @@
 --pantone:#EF233C;
 --pantone50:rgba(239, 35, 60,.50);
 --pantone25:rgba(239, 35, 60,.25);
-
 h4{
     margin-bottom: 2px;
     margin-left: 24px;
@@ -36,6 +34,7 @@ body{
     width:auto;
     height: fit-content;
     margin:20px;
+    margin-top:120px;
     border-radius: 20px;
     background-image: image();
 }
@@ -79,7 +78,7 @@ body{
     display:flex;
     border-radius: 20px;
     border:solid black 2px;
-    margin:3%;
+    margin:10%;
     
 }
 .box2{
@@ -97,18 +96,19 @@ body{
     text-decoration:none;
     background-color:var(--pantone25);
     border: solid, black 2px;
-    position:fixed;
+    position:absolute;
     width:220px;
     border-radius: 20px;
     margin:1%;
-    margin-top: 270px;
+    margin-top: 368px;
     padding-left: 1px;
 
 }
 .navbar{
+    position: fixed;
     display:grid;
     grid-area: 1/1/3/7;
-    width:100%;
+    width:99%;
     background-color: var(--pantone);
     border:solid black 2px;
     z-index: 1;
