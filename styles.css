@@ -10,7 +10,10 @@
 --pantone50:rgba(239, 35, 60,.50);
 --pantone25:rgba(239, 35, 60,.25);
 
-
+h4{
+    margin-bottom: 2px;
+    margin-left: 24px;
+}
 }
 body{
     font-family: 'inter';
@@ -23,7 +26,7 @@ body{
     height:max-content;
     border-radius: 1px;
     flex-direction: column;
-    background-color: var(--spacecadet);
+    background-color: var(--antiflashwhite);
     font-family: 'inter';
 }
 .banner {
@@ -54,6 +57,7 @@ body{
     justify-content: space-around;
     border:solid black 2px;
     border-radius: 16px;
+    background-color: var(--spacecadet);
 
 }
 .box{
@@ -89,6 +93,8 @@ body{
     margin:10%;
 }
 .filter{
+    display: flex;
+    flex-direction: column;
     text-decoration:none;
     background-color:var(--pantone25);
     border: solid, black 2px;
@@ -96,6 +102,8 @@ body{
     width:220px;
     border-radius: 20px;
     margin:0.5%;
+    margin-top: 2px;
+    padding-left: 1px;
 
 }
 .navbar{
@@ -134,7 +142,17 @@ body{
     grid-column-start:5;
 }
 .kassa{
+    display:flex;
+    align-items: flex-end;
+    justify-content: flex-end;
     grid-column-start:5;
+}
+.search{
+    margin-top: 40px;
+    grid-column-start: 3;
+}
+.sok{
+    width:fit-content;
 }
 .foot{
     padding: 2px;
