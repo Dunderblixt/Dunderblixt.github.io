@@ -8,8 +8,9 @@
 --pantone:#EF233C;
 --pantone50:rgba(239, 35, 60,.50);
 --pantone25:rgba(239, 35, 60,.25);
+
 }
-    h4{
+h4{
     margin-bottom: 2px;
     margin-left: 24px;
 }
@@ -30,8 +31,9 @@ body{
 .banner {
     display:flex;
     background-color:var(--Coolgray);
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    
+    align-items:center;
     border:solid black 2px;
     width:auto;
     height: fit-content;
@@ -102,7 +104,7 @@ body{
     width:220px;
     border-radius: 20px;
     margin:1%;
-    margin-top: 368px;
+    margin-top: 418px;
     padding-left: 1px;
 
 }
@@ -166,7 +168,4 @@ body{
 a:link,a:visited{
     color:black;
 }
-
-
-
 
