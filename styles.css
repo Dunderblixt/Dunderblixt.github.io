@@ -8,10 +8,10 @@
 --pantone:#EF233C;
 --pantone50:rgba(239, 35, 60,.50);
 --pantone25:rgba(239, 35, 60,.25);
-h4{
+}
+    h4{
     margin-bottom: 2px;
     margin-left: 24px;
-}
 }
 body{
     font-family: 'inter';
@@ -32,7 +32,7 @@ body{
     background-color:var(--Coolgray);
     justify-content: center;
     align-items:center;
-    border:solid, black, 2px;
+    border:solid black 2px;
     width:auto;
     height: fit-content;
     margin:20px;
@@ -97,7 +97,7 @@ body{
     flex-direction: column;
     text-decoration:none;
     background-color:var(--pantone25);
-    border: solid, black 2px;
+    border: solid black 2px;
     position:absolute;
     width:220px;
     border-radius: 20px;
@@ -166,5 +166,6 @@ body{
 a:link,a:visited{
     color:black;
 }
+
 
 
