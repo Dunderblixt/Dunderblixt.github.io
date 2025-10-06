@@ -44,7 +44,7 @@ body{
 }
 .button {
     display:flex;
-    justify-self: flex-end;
+    justify-self: right;
     margin: 10px;
     border-radius: 10px;
 }
@@ -173,4 +173,5 @@ a:link,a:visited{
     display:none;
 }
 }
+
 
