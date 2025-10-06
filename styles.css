@@ -213,7 +213,8 @@ a:link,a:visited{
 }
 @media screen and (min-width:1024px)  {
         .box{
-        width:18%;
+            font-size: medium;
+        width:12%;
         }
         .banner{
         font-size: medium;
