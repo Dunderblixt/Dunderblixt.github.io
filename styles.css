@@ -3,8 +3,8 @@
 --spacecadet:rgb(43, 45, 66);
 --spacecadet-50:rgb(86, 90, 132);
 --spacecadet-200:rgb(22, 22, 33);
---Coolgray:#8D99AE;
---Coolgray-50:#8D99AE 50%;
+--coolgray:#8D99AE;
+--coolgray-50:#8D99AE 50%;
 --antiflashwhite:#EDF2F4;
 --pantone:#EF233C;
 --pantone50:rgba(239, 35, 60,.50);
@@ -32,15 +32,14 @@ body{
     font-family: 'inter';
 }
 .banner {
-    background-color:var(--Coolgray);
+    background-color:var(--coolgray);
     justify-content: center;
-    border:solid, black, 2px;
+    border:solid black 2px;
     width:auto;
     height: fit-content;
     margin:8px;
     margin-top:120px;
     border-radius: 20px;
-    background-image: ();
     font-size: x-small;
 }
 .button {
@@ -105,7 +104,7 @@ body{
     flex-direction: column;
     text-decoration:none;
     background-color:var(--pantone25);
-    border: solid, black 2px;
+    border: solid black 2px;
     position:absolute;
     width:180px;
     border-radius: 20px;
@@ -161,12 +160,11 @@ body{
 .foot{
     padding: 2px;
     display:flex;
-    background-color: var(--Coolgray);
+    background-color: var(--coolgray);
     width:100%;
     justify-content: space-around;
 
             flex-direction: column;
-        flex-wrap: space-between;
 }
 a:link,a:visited{
     color:black;
@@ -187,9 +185,9 @@ a:link,a:visited{
     flex-direction: column;
     text-decoration:none;
     background-color:var(--pantone25);
-    border: solid, black 2px;
+    border: solid black 2px;
     position:absolute;
-    width:220px;
+    width:220px; 
     border-radius: 20px;
     margin:1%;
     margin-top: 280px;
@@ -227,6 +225,6 @@ a:link,a:visited{
     width:50%;
         }
         .filter{
-                margin-top: 368px;
+                margin-top: 350px;
         }
 }
