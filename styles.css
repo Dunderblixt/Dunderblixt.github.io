@@ -31,7 +31,7 @@ body{
     display:flex;
     background-color:var(--Coolgray);
     justify-content: center;
-    align-items:center;
+    align-items: center;
     border:solid black 2px;
     width:auto;
     height: fit-content;
@@ -166,6 +166,7 @@ body{
 a:link,a:visited{
     color:black;
 }
+
 
 
 
