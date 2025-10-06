@@ -182,4 +182,9 @@ a:link,a:visited{
     .banner{
         font-size: x-small;
     }
+    .foot{
+        display:flex;
+        flex-direction:column;
+    }
 } 
+
