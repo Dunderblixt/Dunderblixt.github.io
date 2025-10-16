@@ -2,7 +2,7 @@ body{
     background-image:url("/assets/bg.png");
     font-family:"Quantico", serif, Courier;
     margin:0;
-    background-color:#131112;
+    background-color:#F7F7FF;
 }
 .huvud{
     display:flex;
@@ -53,7 +53,7 @@ body{
     display:flex;
     align-self:center;
     border:solid black 2px;
-    background-color: #BFC0C0;
+    background-color: #F7F7FF;
     width: 60%;
     height:fit-content;
     margin:1rem;
@@ -70,9 +70,9 @@ body{
     align-self:center;
     font-size:x-small;
     border:solid black 2px;
-    background-color:#BFC0C0;
+    background-color:#F7F7FF;
     height:fit-content;
-    width:90%;
+    width:45%;
     margin:8px;
     margin-top:12rem;
     padding: 4px;

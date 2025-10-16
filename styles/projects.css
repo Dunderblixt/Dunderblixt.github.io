@@ -22,7 +22,7 @@
 /*Hero med sidtitel*/
 .rubrik{
     color:#131112;
-    background-color: #BFC0C0;
+    background-color: #F7F7FF;
     Padding: 1rem;
     width:320px;
     border:solid black 2px;
@@ -32,14 +32,14 @@
 .formats{
     color:#131112;
     border:solid black 2px;
-    background-color:#BFC0C0;
+    background-color:#F7F7FF;
     text-decoration-line:underline;
     Padding: 1rem;
     width: 300px;
     }
 
 .project{
-    background-color:#BFC0C0;
+    background-color:#F7F7FF;
     display:flex;
     font-size:xx-small;
     width:50%;
