@@ -1,0 +1,92 @@
+/*justering av bokmärken för fixed header*/
+#albums{
+    scroll-margin-top: 200px;
+}
+#singles{
+    scroll-margin-top: 200px;
+}
+#covers{
+  scroll-margin-top: 200px;  
+}
+#collabs{
+    scroll-margin-top: 200px;
+}
+.container{
+    margin-top: 180px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/*Hero med sidtitel*/
+.rubrik{
+    color:#131112;
+    background-color: #BFC0C0;
+    Padding: 1rem;
+    width:320px;
+    border:solid black 2px;
+
+}
+/*kategorier*/
+.formats{
+    color:#131112;
+    border:solid black 2px;
+    background-color:#BFC0C0;
+    text-decoration-line:underline;
+    Padding: 1rem;
+    width: 300px;
+    }
+
+.project{
+    background-color:#BFC0C0;
+    display:flex;
+    font-size:xx-small;
+    width:50%;
+    border:solid black 2px;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding: 12px;
+    margin:8px;
+}
+.listing {
+    margin: 16px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width:70%;
+}
+.projimg{
+    border:solid black 1px;
+       width:60%;
+}
+@media screen and (min-width:640px)  {
+    .bartwo{
+        font-size: medium;
+}
+    .container{
+        margin-top: 200px;
+}
+    .project{
+        width:35%;
+}
+    .formats{
+        width:500px;
+}
+    .rubrik{
+        width:600px;
+    }
+}
+@media screen and (min-width:1024px)  {
+  .project{
+    width:20%;    
+}
+.formats{
+    width:800px
+}
+    .rubrik{
+    width:960px;
+
+}
+}

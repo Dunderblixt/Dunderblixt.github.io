@@ -1,0 +1,21 @@
+.banner2{
+     color:#131112;
+    display:flex;
+    align-self:center;
+    font-size:medium;
+    border:solid black 2px;
+    background-color: #BFC0C0;
+    height:fit-content;
+    width:70%;
+    margin:8px;
+    margin-top:13rem;
+    padding: 4px;
+    flex-direction: column;
+    text-align: center;
+}
+#bio{
+    scroll-margin-top: 220px;
+}
+#contact{
+    scroll-margin-top: 200px;
+}
