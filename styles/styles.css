@@ -27,9 +27,11 @@ body{
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
+    border-bottom: solid antiquewhite 2px;
+    border-top: solid antiquewhite 2px;
 }
 .bartwo{
-    border-top: solid antiquewhite 2px;
+    border-bottom: solid antiquewhite 2px;
     display:flex;
     justify-content: space-evenly;
     font-size: small;
@@ -78,6 +80,7 @@ body{
     align-items: center;
     text-align: center;
 }
+
 .fot{
     color:antiquewhite;
     display:grid;
@@ -170,14 +173,13 @@ border:solid black 1px;
 }
 @media screen and (min-width:1024px)  {
     .lateimg{
-        width:50%;
+        width:60%;
     }
     .banner{
         width: 45%;
 }
 
 }
-
 
 
 
