@@ -54,30 +54,42 @@ body{
     align-self:center;
     border:solid black 2px;
     background-color: #F7F7FF;
-    width: 60%;
+    width: 70%;
     height:fit-content;
-    margin:1rem;
+    margin:2px;
+    margin-top: 12rem;
     padding: 32px;
     align-items: center;
     flex-direction: column;
     text-align: center;
 }
 
-/*första bannern har andra värden */
-.banner1{
+.part{
      color: #131112;
     display:flex;
     align-self:center;
     font-size:x-small;
-    border:solid black 2px;
+    border-bottom:solid #131112 2px;
     background-color:#F7F7FF;
     height:fit-content;
-    width:45%;
-    margin:8px;
-    margin-top:12rem;
-    padding: 4px;
+    width:100%;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    padding:1rem;
+}
+.box{
+    color: #131112;
+    display:flex;
+    align-self:center;
+    border:solid black 2px;
+    background-color: #f7f7ff;
+    width: 70%;
+    height:fit-content;
+    margin:2px;
+    padding: 32px;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
 }
 
@@ -148,25 +160,22 @@ body{
 }
 /*storlek på bilden under Latest*/
 .lateimg{
-width:80%;
-border:solid black 1px;
+    width:80%;
+    border:solid black 1px;
 }
 /*storlek på logon i headern*/
-    .logoimg{
+.logoimg{
         width: 100px;
-    }
+}
 
 @media screen and (min-width:640px)  {
     .banner1{
-        margin:1rem;
-        margin-top:14rem;
-        padding: 8px;
         font-size: medium;
-        width:60%;
+        border-bottom: solid black 2px;
     }
     .bartwo{
         font-size: medium;
-}
+    }
     .logoimg{
         width: 140px;
     }
@@ -176,8 +185,8 @@ border:solid black 1px;
         width:60%;
     }
     .banner{
-        width: 45%;
-}
+        width: 60%;
+    }
 
 }
 

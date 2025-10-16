@@ -1,15 +1,29 @@
-.banner2{
-     color:#131112;
+.canvas{
+    color: #131112;
     display:flex;
     align-self:center;
-    font-size:medium;
     border:solid black 2px;
     background-color: #F7F7FF;
+    width: 70%;
     height:fit-content;
-    width:70%;
-    margin:8px;
-    margin-top:13rem;
-    padding: 4px;
+    margin:2px;
+    margin-top: 12rem;
+    padding: 32px;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.canvas2{
+    color: #131112;
+    display:flex;
+    align-self:center;
+    border:solid black 2px;
+    background-color: #F7F7FF;
+    width: 70%;
+    height:fit-content;
+    margin:2px;
+    padding: 32px;
+    align-items: center;
     flex-direction: column;
     text-align: center;
 }
