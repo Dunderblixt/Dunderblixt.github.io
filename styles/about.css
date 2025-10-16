@@ -27,9 +27,23 @@
     flex-direction: column;
     text-align: center;
 }
+.biobod{
+    text-align:left;
+    margin-inline:1rem;
+}
 #bio{
     scroll-margin-top: 220px;
 }
 #contact{
     scroll-margin-top: 200px;
+}
+@media screen and (min-width:640px)  {
+    .biobod{
+    margin-inline: 4rem;
+    }
+}
+@media screen and (min-width:1024px)  {
+    .biobod{
+    margin-inline: 8rem;
+    }
 }
