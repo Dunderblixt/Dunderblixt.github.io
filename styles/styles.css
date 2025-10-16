@@ -78,16 +78,6 @@ body{
     align-items: center;
     text-align: center;
 }
-.box{
-    margin: 8px;
-    width:15%;
-    font-size: smaller;
-    display:flex;
-    flex-direction: column;
-    justify-self: center;
-    align-self: center;
-    justify-content: center;
-}
 .fot{
     color:antiquewhite;
     display:grid;
@@ -187,6 +177,7 @@ border:solid black 1px;
 }
 
 }
+
 
 
 
