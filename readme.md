@@ -11,4 +11,6 @@
  Headern är fixed, så första h1 är längst upp på sidan.
  Om logon bryts loss kan den få vara i ett h1-element. 
 2. Lägga till knappar för varje streamingplattform på varje projekt, minska spotify-knapp.
+
 [X]Portfolion publicerad på: https://dunderblixt.github.io
+Warnings: Heading saknas i section på about-sidan, den ligger ovanför section för att koden blir mer effektiv (en färre div).
